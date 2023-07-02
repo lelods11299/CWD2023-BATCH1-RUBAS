@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/340fca5fd6.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>ArtScape Gallery</title>
+  </head>
+  <body>
+    <nav class="teal lighten-2 darken-1">
+      <div class="container">
+        <a
+          href="#"
+          class="brand-logo"
+          style="font-weight: 600; letter-spacing: 2px"
+          >ArtScape Gallery</a
+        >
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+          >Logo
+          <i class="fas fa-bars"></i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#scene">Scenery Pixel Art</a></li>
+          <li><a href="#pixelated">Pixelated Avatar Art</a></li>
+          <li><a href="#services">Services</a></li>
+        </ul>
+      </div>
+    </nav>
+    <ul id="mobile-demo" class="sidenav">
+      <li>
+        <div class="user-view">
+          <a href="#"><img class="circle" src="img/profile.jpg" /></a>
+          <span class="black-text name">Dan Gerson E. Rubas</span>
+          <span class="grey-text darken-3 email">dandanrubas723@gmail.com</span>
+        </div>
+      </li>
+      <li>
+        <a href="#">
+          <i class="fab fab fa-facebook-square fa-2x deep-purple-text"></i>
+          Facebook
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class="fab fab fa-instagram fa-2x deep-purple-text"></i>
+          Instagram
+        </a>
+      </li>
+      <li><div class="divider"></div></li>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">View</a></li>
+      <li><a href="#">About Me</a></li>
+    </ul>
+
+    <header class="white-text valign-wrapper">
+      <div style="position: relative" class="container">
+        <h1 style="font-size: 70px">
+          Introduction <span style="color: #ec8b5e">Art</span>
+          <span style="color: #d7cf3b">Scape</span> Gallery
+        </h1>
+        <p class="hometext white-text" style="font-size: 18px">
+          Welcome to ArtScape Gallery, where art and imagination come to life.
+          As a premier destination for art enthusiasts, we strive to create a
+          captivating space that celebrates creativity and showcases the
+          brilliance of both established and emerging artists.
+        </p>
+        <!-- <a class="deep-purple waves-effect waves-light btn">
+          <i class="fab far fa-star left"></i>
+          Rate
+        </a>
+        <a class="deep-purple waves-effect waves-light btn">Get Started</a> -->
+      </div>
+    </header>
+    <section id="scene">
+      <div class="container">
+        <!-- Projects -->
+        <h3>Scenery</h3>
+        <section>
+          <div class="row">
+            <div class="col s12 m6">
+              <a class="modal-trigger" href="#modal1">
+                <div class="card hoverable">
+                  <div class="card-image">
+                    <img src="img/img1.jpg" />
+                    <span class="card-title">Mountains</span>
+                  </div>
+                  <div class="card-content">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col s12 m6">
+              <a class="modal-trigger" href="#modal2">
+                <div class="card hoverable">
+                  <div class="card-image">
+                    <img src="img/img4.jpg" />
+                    <span class="card-title">Sea</span>
+                  </div>
+                  <div class="card-content">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col s12 m6">
+              <a class="modal-trigger" href="#modal3">
+                <div class="card hoverable">
+                  <div class="card-image">
+                    <img src="img/img2.jpg" />
+                    <span class="card-title">River</span>
+                  </div>
+                  <div class="card-content">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="col s12 m6">
+              <a class="modal-trigger" href="#modal4">
+                <div class="card hoverable">
+                  <div class="card-image">
+                    <img src="img/img3.jpg" />
+                    <span class="card-title">Forest</span>
+                  </div>
+                  <div class="card-content">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <!-- <div class="col s12 m6">
+            <div class="card">
+              <div class="card-image">
+                <img src="images/sample-1.jpg" />
+                <span class="card-title">Card Title</span>
+                <a
+                  class="btn-floating halfway-fab waves-effect waves-light red btn modal-trigger"
+                  href="#modal1"
+                  ><i class="material-icons">add</i></a
+                >
+              </div>
+              <div class="card-content">
+                <a
+                  class="waves-effect waves-light btn modal-trigger"
+                  href="#modal1"
+                  >Modal</a
+                >
+                <p>
+                  I am a very simple card. I am good at containing small bits of
+                  information. I am convenient because I require little markup
+                  to use effectively.
+                </p>
+              </div>
+            </div>
+          </div> -->
+          </div>
+        </section>
+        <!-- Modal Structure -->
+        <div id="modal1" class="modal">
+          <div class="modal-content">
+            <h4>Mountains</h4>
+            <p>
+              mountain, landform that rises prominently above its surroundings,
+              generally exhibiting steep slopes, a relatively confined summit
+              area, and considerable local relief.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <a
+              href="#!"
+              class="modal-close waves-effect waves-green btn-flat white-text text-darken-2 red darken-1"
+              >Exit</a
+            >
+          </div>
+        </div>
+
+        <div id="modal2" class="modal">
+          <div class="modal-content">
+            <h4>Sea</h4>
+            <p>
+              In general, a sea is defined as a portion of the ocean that is
+              partly surrounded by land. Given that definition, there are about
+              50 seas around the world. But that number includes water bodies
+              not always thought of as seas, such as the Gulf of Mexico and the
+              Hudson Bay.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <a
+              href="#!"
+              class="modal-close waves-effect waves-green btn-flat white-text text-darken-2 red darken-1"
+              >Exit</a
+            >
+          </div>
+        </div>
+
+        <div id="modal3" class="modal">
+          <div class="modal-content">
+            <h4>River</h4>
+            <p>
+              A river is a ribbon-like body of water that flows downhill from
+              the force of gravity. A river can be wide and deep, or shallow
+              enough for a person to wade across. A flowing body of water that
+              is smaller than a river is called a stream, creek, or brook.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <a
+              href="#!"
+              class="modal-close waves-effect waves-green btn-flat white-text text-darken-2 red darken-1"
+              >Exit</a
+            >
+          </div>
+        </div>
+
+        <div id="modal4" class="modal">
+          <div class="modal-content">
+            <h4>Forest</h4>
+            <p>
+              A river is a ribbon-like body of water that flows downhill from
+              the force of gravity. A river can be wide and deep, or shallow
+              enough for a person to wade across. A flowing body of water that
+              is smaller than a river is called a stream, creek, or brook.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <a
+              href="#!"
+              class="modal-close waves-effect waves-green btn-flat white-text text-darken-2 red darken-1"
+              >Exit</a
+            >
+          </div>
+        </div>
+
+        <!--  -->
+      </div>
+    </section>
+
+    <div class="parallax-container">
+      <div class="parallax"><img src="img/parallax1.jpg" /></div>
+    </div>
+
+    <section id="pixelated">
+      <div class="section white">
+        <div class="row container">
+          <h2 class="header">Profile Pixel Art</h2>
+          <div class="row">
+            <div class="col s12 m6 align-right valign-wrapper">
+              <img
+                class="materialboxed"
+                src="img/profile1.png"
+                width="550"
+                style="margin: 23px"
+              />
+            </div>
+            <div class="col s12 m6 align-right valign-wrapper">
+              <img
+                class="materialboxed"
+                src="img/profile2.png"
+                width="550"
+                style="margin: 23px"
+              />
+            </div>
+            <div class="col s12 m6 align-right valign-wrapper">
+              <img
+                class="materialboxed"
+                src="img/profile3.jpg"
+                width="550"
+                style="margin: 23px"
+              />
+            </div>
+            <div class="col s12 m6 align-right valign-wrapper">
+              <img
+                class="materialboxed"
+                src="img/profile5.png"
+                width="550"
+                style="margin: 23px"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="parallax-container">
+      <div class="parallax"><img src="img/parallax2.jpg" /></div>
+    </div>
+  
+    <div class="container">
+      <section id="services">
+      <h1>Services</h1>
+      <section>
+        <div class="row">
+          <div class="col s12 m4">
+            <div class="section">
+              <h4>Art Exhibitions</h4>
+              <p class="grey-text">
+                We curate regular exhibitions featuring a wide variety of
+                artworks from local, national, and international artists
+              </p>
+            </div>
+          </div>
+          <div class="col s12 m4">
+            <div class="section">
+              <h4>Art Sales</h4>
+              <p class="grey-text">
+                If you're interested in adding a unique piece of art to your
+                collection, our gallery offers a selection of artworks available
+                for sale.
+              </p>
+            </div>
+          </div>
+          <div class="col s12 m4">
+            <div class="section">
+              <h4>Art Consultation</h4>
+              <p class="grey-text">
+                We understand that selecting art can be a personal and
+                significant decision. Our experienced art consultants are
+                available to provide guidance and expertise, helping you
+                navigate the art world and make informed choices.
+              </p>
+            </div>
+          </div>
+          <div class="col s12 m4">
+            <div class="section">
+              <h4>Art Events and Programs</h4>
+              <p class="grey-text">
+                We organize a variety of events and programs to engage our
+                visitors and foster a deeper connection with art. These may
+                include artist talks, panel discussions, workshops, and
+                interactive sessions.
+              </p>
+            </div>
+          </div>
+          <div class="col s12 m4">
+            <div class="section">
+              <h4>Artist Representation</h4>
+              <p class="grey-text">
+                ArtScape Gallery is dedicated to supporting artists and
+                promoting their work. We offer artist representation services,
+                acting as a bridge between artists and potential buyers,
+                collectors, and art enthusiasts. Through our gallery, artists
+                gain exposure and recognition, opening doors to new
+                opportunities.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </section>
+    <div class="parallax-container">
+      <div class="parallax"><img src="img/parallax3.jpg" /></div>
+    </div>
+
+    <div class="section white">
+      <div class="row container">
+        <div class="slider">
+          <ul class="slides">
+            <li>
+              <img src="img/slogan5.jpg" />
+              <!-- random image -->
+              <div class="caption center-align">
+                <h3
+                  style="
+                    font-weight: 600;
+                    font-size: 70px;
+                    color: rgb(183, 217, 233);
+                  "
+                >
+                  "Where Art Ignites the Imagination"
+                </h3>
+                <h5 class="light grey-text text-lighten-3">
+                  "Immerse Yourself in the Artistic Tapestry"
+                </h5>
+              </div>
+            </li>
+            <li>
+              <img src="img/slogan2.jpg" />
+              <!-- random image -->
+              <div class="caption left-align">
+                <h3
+                  style="
+                    font-weight: 600;
+                    font-size: 70px;
+                    color: rgb(183, 217, 233);
+                  "
+                >
+                  "Where Art Ignites the Imagination"
+                </h3>
+                <h5 class="light grey-text text-lighten-3">
+                  "Immerse Yourself in the Artistic Tapestry"
+                </h5>
+              </div>
+            </li>
+            <li>
+              <img src="img/slogan3.jpg" />
+              <!-- random image -->
+              <div class="caption right-align">
+                <h3
+                  style="
+                    font-weight: 600;
+                    font-size: 70px;
+                    color: rgb(183, 217, 233);
+                  "
+                >
+                  "Where Art Ignites the Imagination"
+                </h3>
+                <h5 class="light grey-text text-lighten-3">
+                  "Immerse Yourself in the Artistic Tapestry
+                </h5>
+              </div>
+            </li>
+            <li>
+              <img src="img/slogan4.jpg" />
+              <!-- random image -->
+              <div class="caption center-align">
+                <h3
+                  style="
+                    font-weight: 600;
+                    font-size: 70px;
+                    color: rgb(183, 217, 233);
+                  "
+                >
+                  "Where Art Ignites the Imagination"
+                </h3>
+                <h5 class="light grey-text text-lighten-3">
+                  "Immerse Yourself in the Artistic Tapestry
+                </h5>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <footer class="page-footer teal">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s1">
+            <h5 class="white-text">ArtScape Gallery</h5>
+            <p class="grey-text text-lighten-4">
+              is a vibrant and esteemed art destination that captivates the
+              imagination and celebrates the power of creativity. With a rich
+              and diverse collection of artworks, our gallery serves as a hub
+              for artists, collectors, and art enthusiasts alike, providing a
+              platform for discovery, appreciation, and inspiration.
+            </p>
+          </div>
+         
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Connect</h5>
+            <ul>
+              <li><a class="white-text" href="#!">Facebook</a></li>
+              <li><a class="white-text" href="#!">Twitter</a></li>
+              <li><a class="white-text" href="#!">Instagram</a></li>
+              <li><a class="white-text" href="#!">Tiktok</a></li>
+            </ul>
+          </div>
+         
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+          Made by
+          <a class="brown-text grey lighten-5">Rubas, Dan Gerson E.</a>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+      crossorigin="anonymous"
+    ></script>
+    <!--Compiled and minified Javascript-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var elems = document.querySelectorAll(".sidenav");
+        var instances = M.Sidenav.init(elems);
+      });
+      $(document).ready(function () {
+        $(".modal").modal();
+      });
+
+      $(document).ready(function () {
+        $(".parallax").parallax();
+      });
+
+      $(document).ready(function () {
+        $(".materialboxed").materialbox();
+      });
+
+      $(document).ready(function () {
+        $(".slider").slider();
+      });
+    </script>
+  </body>
+</html>
